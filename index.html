@@ -4,7 +4,7 @@
 <div class="container">
 <input class="item-header" type="text" name="display" id="display" disabled>
   <input class="btn silver" name="clear" value="AC" onclick="calculator.display.value = ''">
-  <button class="btn silver">+/-</button>
+  <input class="btn silver" name="plus/minus" value="+/-" onclick="calculator.display.value = -calculator.display.value">
   <input class="btn silver" name="percentage" value="%" onclick="calculator.display.value += '%'">
   <input class="btn orange" name="divide" value="/" onclick="calculator.display.value += '/'">
 
