@@ -16,6 +16,7 @@ body {
   "main main main main";
 }
 .item-header {
+  font-size: 64;
   grid-area: header;
   grid-row-start: 1;
   grid-row-end: 1;
